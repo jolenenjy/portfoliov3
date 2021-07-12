@@ -25,8 +25,8 @@ export default function Express() {
             Sr. Product Designer | Jul 2020 to Today
           </p>
           <p className="opacity-80 mt-3">
-            Express is Grab's parcel delivery service that operates in South
-            East Asia. Upon joining the design team last year, I had the
+            Express is Grab&apos;s parcel delivery service that operates in
+            South East Asia. Upon joining the design team last year, I had the
             opportunity to work on the app and web redesigns as well as various
             other features.
           </p>

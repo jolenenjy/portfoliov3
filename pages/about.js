@@ -47,7 +47,7 @@ export default function Home() {
         </div> */}
         <div className="mt-8 max-w-screen-sm px-4 sm:px-6">
           <p className="opacity-80">
-            Hi, I'm Jolene, a designer, researcher and tinkerer.
+            Hi, I&apos;m Jolene, a designer, researcher and tinkerer.
             <br className="sm:hidden" />
             <br className="sm:hidden" /> I value the fact that technology has
             democratized information, allowing us to interact with and learn
@@ -57,7 +57,7 @@ export default function Home() {
           </p>
           <p className="mt-10 font-medium">Work stuff</p>
           <p className="mt-1 opacity-80">
-            I'm currently with the deliveries design team at{" "}
+            I&apos;m currently with the deliveries design team at{" "}
             <a href="https://grab.com">Grab</a>, overlooking the food, mart and
             logistic services. Here, I had the opportunity to lead design work
             ranging from feature improvements, redesigns to new products.
@@ -68,8 +68,8 @@ export default function Home() {
           </p> */}
           <p className="mt-10 font-medium">Interests</p>
           <p className="mt-1 opacity-80">
-            When I'm not looking at screens, you can find me tinkering with 3d
-            printers, centering clay on the pottery wheel or just doodling.
+            When I&apos;m not looking at screens, you can find me tinkering with
+            3d printers, centering clay on the pottery wheel or just doodling.
           </p>
           <p className="mt-10 font-medium">This website</p>
           <p className="mt-1 opacity-80">

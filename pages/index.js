@@ -194,7 +194,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center w-80 text-2xl font-semibold mt-4 lg:w-96 text-center ">
           <h3>
-            I'm a product designer <br />
+            I&apos;m a product designer <br />
             who codes for fun.
           </h3>
           <svg
@@ -241,7 +241,7 @@ export default function Home() {
             </p>
           </div>
           <p className="opacity-80 mt-1">
-            Currently, I work on the product experience for Grab's parcel
+            Currently, I work on the product experience for Grab&apos;s parcel
             delivery service. This includes revamping the consumer app,
             enterprise web as well as improvements to our API.
           </p>

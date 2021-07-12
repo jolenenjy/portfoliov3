@@ -40,9 +40,9 @@ export default function Express() {
           <p className="mt-6 text-xl font-medium">Self pick-up</p>
           <p className="mt-6 font-medium">Background</p>
           <p className="mt-1 opacity-80">
-            Self pick-up is a new product developed as an extension of Grab's
-            food delivery service. The idea is to allow customers to pick up
-            their order from the restaurant themselves.
+            Self pick-up is a new product developed as an extension of
+            Grab&apos;s food delivery service. The idea is to allow customers to
+            pick up their order from the restaurant themselves.
           </p>
           <p className="mt-8 font-medium">My role</p>
           <p className="mt-1 opacity-80">
@@ -157,8 +157,9 @@ export default function Express() {
           </p>
           <p className="mt-4 opacity-80">
             Since the launch, we have also made further enhancements like
-            showing a map view of nearby restaurants. I'm excited to see how the
-            product will continue to grow as part of Grab's super app.
+            showing a map view of nearby restaurants. I&apos;m excited to see
+            how the product will continue to grow as part of Grab&apos;s super
+            app.
           </p>
 
           <div className="my-12 flex justify-center opacity-50">—</div>
