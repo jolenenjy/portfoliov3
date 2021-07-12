@@ -1,16 +1,147 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("https://rsms.me/inter/inter.css");
+
+/* 
+@font-face {
+    font-family: 'InterVar';
+    src: url('../public/fonts/Inter-VariableFont.ttf') format('truetype-variations');
+  } */
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('../public/fonts/RobotoMono-VariableFont_wght.ttf') format('truetype-variations');
+  }
+
+
+@layer base {
+    body {
+        @apply font-sans text-gray-800 leading-relaxed overflow-x-hidden;
+    }
+
+    mark{
+      background-color: #E0F2FE;
+      color: #1E293B;
+    }
+    /* @supports (font-variation-settings: normal) {
+        body {
+            @apply font-sansvar;
+          }
+    } */
+  }
+
+@layer components {
+    .navlink {
+        @apply flex-1 text-sm font-medium
+    }
+
+    .nava {
+        @apply flex justify-center rounded-md py-2 bg-gray-100 bg-opacity-80
+    }
+    .navaactive {
+        @apply flex justify-center rounded-md  py-2 bg-white opacity-60 hover:bg-gray-100 hover:bg-opacity-80 hover:opacity-100
+    }
+
+    .social:hover .socialhover{
+      opacity:0.5;
+      transition: all .3s ease-out;
+    }
+
+    .cta{
+      transition: all .3s ease-out;
+    }
+    .ctaparent:hover .cta{
+      transform: translate(0, -60px);
+    }
+
+    .path {
+        stroke-dasharray: 1.1;
+        stroke-dashoffset: 1.1;
+      }
+
+    .anim1{
+        animation: draw 0.1s ease-out forwards;
+      }
+      .anim2{
+        animation: draw 0.05s ease-out forwards;
+        animation-delay: 0.1s;
+      }
+      .anim3{
+        animation: draw 0.07s ease-out forwards;
+        animation-delay: 0.15s;
+      }
+      .anim4{
+        animation: draw 0.15s ease-out forwards;
+        animation-delay: 0.225s;
+      }
+      .anim5{
+        animation: draw 0.2s ease-out forwards;
+        animation-delay: 0.375s;
+      }
+      .anim6{
+        animation: draw 0.05s ease-out forwards;
+        animation-delay: 0.575s;
+      }
+      .anim7{
+        animation: draw 0.06s ease-out forwards;
+        animation-delay: 0.635s;
+      }
+      .anim8{
+        animation: draw 0.1s ease-out forwards;
+        animation-delay: 0.695s;
+      }
+      .anim9{
+        animation: draw 0.06s ease-out forwards;
+        animation-delay: 0.795s;
+      }
+      .anim10{
+        animation: draw 0.05s ease-out forwards;
+        animation-delay: 0.865s;
+      }
+      .anim11{
+        animation: draw 0.15s ease-out forwards;
+        animation-delay: 0.915s;
+      }
+      .anim12{
+        animation: draw 0.18s ease-out forwards;
+        animation-delay: 1.1s;
+      }
+      .anim13{
+        animation: draw 0.13s ease-out forwards;
+        animation-delay: 1.28s;
+      }
+      .anim14{
+        animation: draw 0.15s ease-out forwards;
+        animation-delay: 1.41s;
+      }
+      .anim15{
+        animation: draw 0.15s ease-out forwards;
+        animation-delay: 1.56s;
+      }
+      .anim16{
+        animation: draw 0.15s ease-out forwards;
+        animation-delay: 1.71s;
+      }
+      .anim17{
+        animation: draw 0.15s ease-out forwards;
+        animation-delay: 1.86s;
+      }
+      .anim18{
+        animation: draw 0.1s ease-out forwards;
+        animation-delay: 2.12s;
+      }
+      .anim19{
+        animation: draw 0.05s ease-out forwards;
+        animation-delay: 2.23s;
+      }
+      .anim20{
+        animation: draw 0.5s ease-out forwards;
+        animation-delay: 2.8s;
+      }
+      
+      @keyframes draw {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
