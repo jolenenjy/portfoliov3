@@ -109,15 +109,17 @@
         animation-delay: 1.28s;
       }
       .anim14{
-        animation: draw 0.15s ease-out forwards;
+        animation: draw 0.152s ease-out forwards;
         animation-delay: 1.41s;
+        -webkit-animation: draw 0.15s ease-out forwards;
+        -webkit-animation-delay: 1.41s;
       }
       .anim15{
         animation: draw 0.15s ease-out forwards;
         animation-delay: 1.56s;
       }
       .anim16{
-        animation: draw 0.15s ease-out forwards;
+        animation: draw 0.152s ease-out forwards;
         animation-delay: 1.71s;
       }
       .anim17{
