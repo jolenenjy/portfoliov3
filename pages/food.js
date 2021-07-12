@@ -69,14 +69,16 @@ export default function Express() {
         <div className="max-w-screen-sm mt-2">
           <p className="mt-6 font-medium">Fundamental research</p>
           <p className="mt-1 opacity-80">
-            Unlike for delivery, we had more to learn about today’s takeout
-            experience. Hence, we did interviews and concept testing sessions in
-            Indonesia, Vietnam, and Singapore. We found that:
+            We had quite a bit to learn about today’s takeout experience having
+            only done research for deliveries. Hence, we did interviews and
+            concept testing sessions in Indonesia, Vietnam, and Singapore. We
+            found that:
           </p>
           <div className="prose mt-4">
             <ol className="opacity-80">
               <li>
-                People prefer not having to queue and wait for their food.
+                People would be glad to not have to queue and wait for their
+                food.
               </li>
               <li>
                 People are less adventurous for takeout and like to find a few

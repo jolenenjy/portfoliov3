@@ -106,7 +106,7 @@ export default function Express() {
               <li className="opacity-80">
                 <mark>Faster price estimates.</mark> Changed the booking flow to
                 allow users to quickly get an estimated price with just the
-                location input before asking other details.
+                location input before asking for other details.
               </li>
               <div className="flex bg-gray-50 w-full overflow-hidden rounded-xl mt-4 mb-12">
                 <Image
@@ -165,12 +165,12 @@ export default function Express() {
           <p className="mt-1 opacity-80">
             Working on the redesigns were tricky as every stakeholder involved
             had some imagination of their own with regards to how it should be.
-            I learned that the key was really aligning everyone to the main user
-            needs and having frequent check-ins.
+            I learned that the key was aligning everyone to the core user needs
+            and having frequent check-ins.
           </p>
           <p className="mt-4 opacity-80">
-            Additionally, doing design jam sessions helped with gathering a lot
-            more perspectives and kept the wider design team included with whats
+            Additionally, doing design jam sessions helped with gathering other
+            perspectives and kept the wider design team included with whats
             going on.
           </p>
 
