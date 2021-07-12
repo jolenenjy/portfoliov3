@@ -47,7 +47,7 @@ export default function Home() {
         <div>
           <div className="flex p-0 mt-16 h-72 sm:h-96 border-2 border-gray-100 hover:border-gray-200 rounded-2xl overflow-hidden transition duration-200 ease-in-out">
             <a href="https://medium.com/adventures-of-a-designer">
-              <div className="ctaparent bg-gray-50 w-full rounded-lg overflow-hidden">
+              <div className="ctaparent bg-white w-full rounded-lg overflow-hidden">
                 <Image
                   className="rounded-xl"
                   src={comic}
