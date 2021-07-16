@@ -7,6 +7,7 @@ const Layout = ({ children }) => (
     <Head>
       <title>Jolene Ng</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <script src="js/bodymovin.js" type="text/javascript"></script>
     </Head>
     <Navbar />
     <div className="flex justify-center w-full">{children}</div>

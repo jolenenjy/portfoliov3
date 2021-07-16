@@ -1,4 +1,9 @@
 import Layout from "../components/Layout";
+import Lottie from "react-lottie";
+import animationData from "../public/lottie/welcome.json";
+import animationData2 from "../public/lottie/bell.json";
+import animationData3 from "../public/lottie/price.json";
+import animationData4 from "../public/lottie/choose.json";
 import Image from "next/image";
 import Link from "next/link";
 import express from "../public/images/express.png";
@@ -9,6 +14,38 @@ import express5 from "../public/images/express5.png";
 import express6 from "../public/images/express6.png";
 
 export default function Express() {
+  const lottie = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+  const lottie2 = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData2,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+  const lottie3 = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData3,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+  const lottie4 = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData4,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <Layout>
       <div className=" flex justify-center items-center flex-col mt-8 px-4 sm:px-6">
@@ -161,6 +198,36 @@ export default function Express() {
           </div>
         </div>
         <div className="max-w-screen-sm mt-4">
+          <p className="mt-6 font-medium">Other stuff</p>
+          <p className="mt-1 opacity-80">
+            Towards the end of the project, I had the opportunity to work on the
+            onboarding illustrations and split the work with another designer to
+            bring them to life!
+          </p>
+          <div className="flex mt-12 justify-between">
+            <Lottie
+              options={lottie}
+              isClickToPauseDisabled={true}
+              ariaRole="img"
+            />
+            <Lottie
+              options={lottie3}
+              isClickToPauseDisabled={true}
+              ariaRole="img"
+            />
+          </div>
+          <div className="flex mt-2 mb-12 justify-between">
+            <Lottie
+              options={lottie4}
+              isClickToPauseDisabled={true}
+              ariaRole="img"
+            />
+            <Lottie
+              options={lottie2}
+              isClickToPauseDisabled={true}
+              ariaRole="img"
+            />
+          </div>
           <p className="mt-6 font-medium">Reflection</p>
           <p className="mt-1 opacity-80">
             Working on the redesigns were tricky as every stakeholder involved
