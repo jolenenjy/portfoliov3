@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         <p className="opacity-70 mt-16">For example ↓</p>
         <div>
-          <div className="flex h-64 sm:h-96 bg-gray-100 w-full bg-opacity-60 rounded-2xl p-0 mt-12 ">
+          <div className="flex h-44 xs:h-64 sm:h-80 md:h-96 bg-gray-100 w-full bg-opacity-60 rounded-2xl p-0 mt-12 ">
             <Canvas />
           </div>
           <div className="mt-6 flex items-center">
@@ -45,7 +45,7 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <div className="flex p-0 mt-16 h-64 sm:h-96 border-2 border-gray-100 hover:border-gray-200 rounded-2xl overflow-hidden transition duration-200 ease-in-out">
+          <div className="flex p-0 mt-16 h-44 xs:h-64 sm:h-80 md:h-96 border-2 border-gray-100 hover:border-gray-200 rounded-2xl overflow-hidden transition duration-200 ease-in-out">
             <a href="https://medium.com/adventures-of-a-designer">
               <div className="ctaparent bg-white w-full rounded-lg overflow-hidden">
                 <Image

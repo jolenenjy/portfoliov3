@@ -291,7 +291,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="mt-6 flex items-center">
-            <p className=" text-md font-medium">Government Digital Services</p>
+            <p className=" text-md font-medium">Gov. Digital Services</p>
             <p className="font-mono text-md opacity-40 ml-3 tracking-tight">
               Jan 2017 to Mar 2019
             </p>
