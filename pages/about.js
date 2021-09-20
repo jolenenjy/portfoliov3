@@ -80,7 +80,7 @@ export default function Home() {
         <div className="flex w-full mt-6 max-w-screen-sm px-4 sm:px-6">
           <div className="flex-1 mr-2">
             <a href="https://version1.joleneng.com">
-              <div className="ctaparent bg-gray-50 w-full rounded-lg h-40 sm:h-52 border-2 border-gray-50 hover:border-gray-200 overflow-hidden transition duration-200 ease-in-out">
+              <div className="ctaparent bg-gray-50 w-full rounded-lg h-28 xs:h-44 sm:h-52 border-2 border-gray-50 hover:border-gray-200 overflow-hidden transition duration-200 ease-in-out">
                 <Image src={port1} alt="Comic Image" objectFit="cover" />
                 <div className="hidden md:block bg-gray-100 w-full text-center p-3 z-50 cta">
                   <p className="text-sm font-medium">View site ↗</p>
@@ -100,7 +100,7 @@ export default function Home() {
 
           <div className="flex-1 ml-2">
             <a href="https://version2.joleneng.com">
-              <div className="ctaparent bg-gray-50 w-full rounded-lg h-40 sm:h-52 border-2 border-gray-50 hover:border-gray-200 overflow-hidden transition duration-200 ease-in-out">
+              <div className="ctaparent bg-gray-50 w-full rounded-lg h-28 xs:h-44 sm:h-52 border-2 border-gray-50 hover:border-gray-200 overflow-hidden transition duration-200 ease-in-out">
                 <Image src={port2} alt="Comic Image" objectFit="cover" />
                 <div className="hidden md:block bg-gray-100 w-full text-center p-3 z-50 cta">
                   <p className="text-sm font-medium">View site ↗</p>

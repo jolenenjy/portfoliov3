@@ -220,7 +220,7 @@ export default function Home() {
         <p className="opacity-80 mt-16">Work stuff ↓</p>
 
         <div>
-          <div className="flex h-64 sm:h-96 bg-gray-100 bg-opacity-60 rounded-2xl p-0 mt-12 ">
+          <div className="flex h-44 xs:h-64 sm:h-80 md:h-96 bg-gray-100 bg-opacity-60 rounded-2xl p-0 mt-12 ">
             <Link href="/express">
               <div className="ctaparent bg-gray-50 w-full cursor-pointer border-2 rounded-2xl border-gray-50 hover:border-gray-200 overflow-hidden transition duration-200 ease-in-out">
                 <Image
@@ -248,7 +248,7 @@ export default function Home() {
         </div>
 
         <div>
-          <div className="flex h-64 sm:h-96 bg-gray-100 bg-opacity-60 rounded-2xl p-0 mt-16 ">
+          <div className="flex h-44 xs:h-64 sm:h-80 md:h-96 bg-gray-100 bg-opacity-60 rounded-2xl p-0 mt-16 ">
             <Link href="/food">
               <div className="ctaparent bg-gray-50 w-full cursor-pointer border-2 rounded-2xl border-gray-50 hover:border-gray-200 overflow-hidden transition duration-200 ease-in-out">
                 <Image
@@ -276,7 +276,7 @@ export default function Home() {
         </div>
 
         <div>
-          <div className="flex h-64 sm:h-96 bg-gray-100 bg-opacity-60 rounded-2xl p-0 mt-16 ">
+          <div className="flex h-44 xs:h-64 sm:h-80 md:h-96 bg-gray-100 bg-opacity-60 rounded-2xl p-0 mt-16 ">
             <Link href="/gov">
               <div className="ctaparent bg-gray-50 w-full cursor-pointer border-2 rounded-2xl border-gray-50 hover:border-gray-200 overflow-hidden transition duration-200 ease-in-out">
                 <Image
