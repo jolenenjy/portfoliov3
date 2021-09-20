@@ -69,7 +69,7 @@ export default function Home() {
           <p className="mt-10 font-medium">Interests</p>
           <p className="mt-1 opacity-80">
             When I&apos;m not looking at screens, you can find me tinkering with
-            3d printers, centering clay on the pottery wheel or just doodling.
+            3d printers, crafting with different materials or just doodling.
           </p>
           <p className="mt-10 font-medium">This website</p>
           <p className="mt-1 opacity-80">
