@@ -6,7 +6,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ["Inter"],
+      sans: ["Inter", "ui-sans-serif", "system-ui"],
       sansvar: ["InterVar"],
       mono: ["Roboto Mono", "ui-monospace", "SFMono-Regular"],
     },
