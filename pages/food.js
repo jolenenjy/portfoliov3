@@ -38,6 +38,9 @@ export default function Express() {
         <div className="max-w-screen-sm">
           <div className="mt-8 mb-10 flex justify-center opacity-50">—</div>
           <p className="mt-6 text-xl font-medium">Self pick-up</p>
+          <p className="font-mono text-md mt-1 opacity-50 tracking-tight">
+            Q3 2019
+          </p>
           <p className="mt-6 font-medium">Background</p>
           <p className="mt-1 opacity-80">
             Self pick-up is a new product developed as an extension of

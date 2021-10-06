@@ -51,19 +51,18 @@ export default function Home() {
             <br className="sm:hidden" />
             <br className="sm:hidden" /> I value the fact that technology has
             democratized information, allowing us to interact with and learn
-            from people around the world. Also, I believe in the use of
+            from people around the world. I also believe in the use of
             well-designed tools so that we can spend more time on the things
             that matter.
           </p>
           <p className="mt-10 font-medium">Work stuff</p>
           <p className="mt-1 opacity-80">
-            I&apos;m currently with the deliveries design team at{" "}
-            <a href="https://grab.com">Grab</a>, overlooking the food, mart and
-            logistic services. Here, I had the opportunity to lead design work
-            ranging from feature improvements, redesigns to new products.
+            I&apos;m currently a lead product designer with the deliveries design team at{" "}
+            <a href="https://grab.com">Grab</a>, overlooking our
+            logistic products. Here, I had the opportunity to learn about marketplaces and the balancing act between designing for consumers, merchant and partners.
           </p>
           {/* <p className="mt-1 opacity-80">
-            Before that, I was at Govtech, improving the government digital
+            Before that, I was with the Singapore Government, improving government digital
             services in areas like housing and education.
           </p> */}
           <p className="mt-10 font-medium">Interests</p>

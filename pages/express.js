@@ -59,7 +59,7 @@ export default function Express() {
           </Link>
           <p className="mt-8 text-2xl font-medium">GrabExpress</p>
           <p className="font-mono text-md mt-1 opacity-50 tracking-tight">
-            Sr. Product Designer | Jul 2020 to Today
+            Sr. Product Designer - Lead Product Designer | Jul 2020 to Today<br/>
           </p>
           <p className="opacity-80 mt-3">
             Express is Grab&apos;s parcel delivery service that operates in
@@ -80,6 +80,9 @@ export default function Express() {
         <div className="max-w-screen-sm">
           <div className="mt-8 mb-10 flex justify-center opacity-50">—</div>
           <p className="mt-6 text-xl font-medium">App & Web redesign</p>
+          <p className="font-mono text-md mt-1 opacity-50 tracking-tight">
+            Q2 - Q3 2020
+          </p>
           <p className="mt-6 font-medium">Background</p>
           <p className="mt-1 opacity-80">
             The parcel delivery products at Grab had been left stagnant with
