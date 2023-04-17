@@ -17,7 +17,7 @@ export default function Express() {
             </div>
           </Link>
           <p className="mt-8 text-2xl font-medium">
-            Governemnt digital services
+            Government digital services
           </p>
           <p className="font-mono text-md mt-1 opacity-50 tracking-tight">
             UX Designer | Jan 2017 to Mar 2019
